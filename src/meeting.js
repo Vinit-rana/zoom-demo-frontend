@@ -43,7 +43,7 @@ const Meeting = ({ payload }) => {
   }, [payload]);
 
   return (
-    <div id="meetingSDKElement" style={{ width: "100%", height: "100vh" }} />
+    <div id="meetingSDKElement" style={{ width: "100%", height: "100vh", backgroundColor:"skyblue" }} />
   );
 };
 
